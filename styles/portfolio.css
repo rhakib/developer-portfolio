@@ -213,3 +213,73 @@ gap: 100px;
 .social-links a {
     margin-right: 25px;
 }
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+    .skills-container,
+    .resume-container, 
+    footer, 
+    .about-info-container,
+    .banner,
+    nav{
+        flex-direction: column;
+    }
+    #what-I-do{
+        padding: 15px;
+    }
+    .section-des{
+        width: 100%;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact .btn-primary{
+        margin-left: 160px ;
+    }
+    .social-links{
+        margin-left: 165px;
+    }
+    .contact input[type="text"],.contact input[type="email"], textarea{
+        width: 80%;
+    }
+    .about{
+        padding: 0px;
+    }
+    .header{
+        background-image: none;
+    }
+    nav{
+        margin: 10px;
+    }
+    /* .hardy-pic {
+        width: 100%;
+    } */
+    .profile-img{
+        width: 100%;
+    }
+    .banner{
+        padding: 0px;
+    }
+    nav ul{
+        flex-direction: column;
+        
+    }
+    nav li{
+        margin: 10px;
+    }
+    } 
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    .skills-container {
+        flex-direction: column;
+    }
+    .about{
+        padding: 0px;
+    }
+}
+
